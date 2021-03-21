@@ -1,8 +1,8 @@
 <?php
 
-// $statusCode = '200';
-//$statusCode = 200;
-$statusCode = 999;
+declare(strict_types=1);
+
+$statusCode = 200;
 
 switch ($statusCode) {
     case 200:
@@ -20,17 +20,12 @@ switch ($statusCode) {
         break;
 }
 
-try {
-    $messageFromMatch = match ($statusCode) {
-        200, 300 => 'ok',
-        400 => 'not found',
-        500 => 'server error',
-//    default => 'unknown',
-        default => new \Exception("bla"),
-    };
-} catch (\Throwable $e) {
-    echo "Stari moj";
-}
+$messageFromMatch = match ($statusCode) {
+    200, 300 => 'ok',
+    400 => 'not found',
+    500 => 'server error',
+    default => 'unknown',
+};
 
 echo "switch: {$messageFromSwitch}" . PHP_EOL;
 echo "match: {$messageFromMatch}" . PHP_EOL;
