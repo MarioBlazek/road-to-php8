@@ -1,6 +1,6 @@
 <?php
 
-// https://wiki.php.net/rfc/constructor_promotion
+declare(strict_types=1);
 
 // pokazi promoted property preko phpstorma
 

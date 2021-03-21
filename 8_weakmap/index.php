@@ -1,5 +1,6 @@
 <?php
 
+declare(strict_types=1);
 
 // long running processes
 // caching scenarios
@@ -18,10 +19,10 @@ $mySecondClass = new MyClass();
 $weakMap[$myFirstClass] = 'Something';
 $weakMap[$mySecondClass] = 'Something else';
 
-echo $weakMap[$mySecondClass];
+echo $weakMap[$mySecondClass] . PHP_EOL;
 
-
-echo count($weakMap);
+echo "Elements in map:" . count($weakMap) . PHP_EOL;
 
 unset($myFirstClass);
 
+echo "Elements in map:" . count($weakMap) . PHP_EOL;

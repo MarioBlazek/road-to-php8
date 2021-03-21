@@ -1,5 +1,16 @@
 <?php
 
-// https://wiki.php.net/rfc/str_contains
-// https://wiki.php.net/rfc/add_str_starts_with_and_ends_with_functions
+declare(strict_types=1);
 
+
+if (strpos('string with lots of words', 'words') !== false) {
+
+}
+
+if (str_contains('string with lots of words', 'words')) {
+
+}
+
+str_starts_with('haystack', 'hay');
+
+str_ends_with('haystack', 'stack');
