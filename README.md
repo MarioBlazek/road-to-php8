@@ -18,6 +18,10 @@ Welcome to this repository which showcases some of the interesting features of P
 12. [New string functions](12_string_functions)
 13. [Trailing comma in function calls](13_trailing_comma_functions)
 
+## Slides
+
+Slide can be downloaded [here](Road to PHP 8.pdf).
+
 ### PHP 8 environment
 
 You can either install PHP 8 locally to run the code examples or use the provided helper script to run the examples inside
