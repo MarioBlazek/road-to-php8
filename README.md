@@ -20,7 +20,7 @@ Welcome to this repository which showcases some of the interesting features of P
 
 ## Slides
 
-Slide can be downloaded [here](Road to PHP 8.pdf).
+Slides can be downloaded [here](Road_to_PHP_8.pdf).
 
 ### PHP 8 environment
 
