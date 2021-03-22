@@ -4,17 +4,12 @@ declare(strict_types=1);
 
 class CustomerData
 {
-    public function __construct(public string $name, public string $email, public int $age)
+    public function __construct(private string $name, private string $email, private int $age)
     {
-    }
-
-    public static function createFromData(string $name, string $email, int $age)
-    {
-        return new self($name, $email, $age);
     }
 }
 
-$data = CustomerData::createFromData(
+$data = new CustomerData(
     'Marek',
     'test@example.com',
     12,

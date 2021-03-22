@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-class Name
+class Name #implements Stringable
 {
     public function __toString()
     {

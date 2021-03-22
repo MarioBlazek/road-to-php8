@@ -11,6 +11,5 @@ if (str_contains('string with lots of words', 'words')) {
 
 }
 
-str_starts_with('haystack', 'hay');
-
-str_ends_with('haystack', 'stack');
+var_dump(str_starts_with('haystack', 'hay'));
+var_dump(str_ends_with('haystack', 'stack'));
