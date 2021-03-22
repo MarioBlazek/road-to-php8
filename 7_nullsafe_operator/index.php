@@ -35,4 +35,4 @@ class Book
 
 $book = new Book();
 
-echo 'Author is :' . $book->getAuthor()->getName()->getFull() . PHP_EOL;
+echo 'Author is :' . $book->getAuthor()?->getName()->getFull() . PHP_EOL;

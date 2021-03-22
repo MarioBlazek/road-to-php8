@@ -9,7 +9,6 @@ class CustomerData
     }
 }
 
-
 $values = [
     'name' => 'Marek',
     'email' => 'test@example.com',

@@ -2,9 +2,6 @@
 
 declare(strict_types=1);
 
-setcookie("putinnukethem", "", "", "", true);
+setcookie("putinnukethem", "value", 0, "", "", true);
 
-setcookie("putinnukethem", secure: true);
-
-
-// neka moja custom funkcija
+setcookie(name: "putinnukethem", value: "value", secure: true);

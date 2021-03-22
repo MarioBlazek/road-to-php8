@@ -2,8 +2,6 @@
 
 declare(strict_types=1);
 
-// pokazi promoted property preko phpstorma
-
 class MyClass
 {
     public string $a;
