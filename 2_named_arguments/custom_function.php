@@ -7,4 +7,4 @@ function printToConsole(int|float|string $data): void
     echo "And the data is: " . (string)$data . PHP_EOL;
 }
 
-printToConsole(data: 'Putin nuke them');
+printToConsole(data: 'Test');

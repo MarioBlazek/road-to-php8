@@ -10,4 +10,4 @@ function printToConsole(int|float|string $data): void
 
 printToConsole(10);
 printToConsole(10.5);
-printToConsole('nukethem');
+printToConsole('test');

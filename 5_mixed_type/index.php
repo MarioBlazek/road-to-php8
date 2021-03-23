@@ -7,6 +7,6 @@ function printToConsole(mixed $data): void
     echo "And the data is: " . (string)$data . PHP_EOL;
 }
 
-printToConsole('Putin nuke them');
+printToConsole('Test');
 printToConsole(1);
 printToConsole(12.3);
